@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - main
-  # Listen to a repository dispatch event by the name of `dispatch-event`
   repository_dispatch:
-    types: [dispatch-event]
+    types: [test_dispatch-event]
 
 jobs:
   log:
