@@ -5,7 +5,7 @@ on:
     branches:
       - main
   repository_dispatch:
-    types: [test_dispatch-event]
+    types: [dispatch-event]
 
 jobs:
   log:
